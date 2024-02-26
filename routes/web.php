@@ -19,6 +19,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('/proyectos-civil', 'proyectos-civil')->name('proyectos-civil');
+
+
 Route::post('/set-theme', [TemaController::class, 'setTheme'])->name('set-theme');
 
 

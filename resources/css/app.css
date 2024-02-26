@@ -17,8 +17,11 @@
 /* Transición de color de fondo */
 .nav-bg-scroll {
     transition: background 0.3s ease;
-    background: linear-gradient(rgba(0, 10, 26, 0.87), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); /* Degradado transparente de arriba a abajo */
+    background: linear-gradient(rgba(0, 10, 26, 0.87), rgba(0, 0, 0, 0), rgba(0, 10, 26, 0.67)); /* Degradado transparente de arriba a abajo */
 }
 
 
 
+.texto-con-sombra {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
